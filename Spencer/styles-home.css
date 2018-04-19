@@ -1,0 +1,126 @@
+* {
+margin:0;
+padding:0;
+}
+body {
+	/*	pexels.com	*/
+	background-image: URL("himage.jpeg");
+	height: 1200px;
+}
+textarea{
+		border: 3px solid #800000;
+		border-radius: 10px;
+		padding: 20px;
+		width: 49%;
+		color:white;
+		background-color: black;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+button{
+	width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#input-name{
+	color: gold;
+}
+
+.tright{
+	width: 49%;
+	display: inline;
+	float:left;
+}
+.tleft{
+	width:49%;
+	float:right;
+}
+
+
+
+
+.menu {
+	background-color: grey;
+	opacity: 1;
+	height: 100px;
+	padding: 20px;
+	z-index:2;
+	position: relative;
+	text-align:center;
+	opacity:.7;
+}
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  margin-left:40%;
+}
+
+.btn:hover {opacity: 1}
+
+
+.menu h1 {
+	color: gold;
+	opacity: 1;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Black Han Sans', sans-serif;
+}
+.intro {
+	background-color: gray;
+	color:gold;
+	text-shadow: 2px 2px black;
+	z-index:2;
+	position: absolute;
+	display: inline-block;
+	margin-left: -500px;
+	margin-right:0px;
+	top: 900px;
+	font-size: 30px;
+	width: 50%;
+	left: 50%;
+	right:300px;
+	border-radius: 5px;
+	box-shadow: 5px 10px black;
+	padding: 10px;
+}
+#box-text {
+	background-image:url("https://get.pxhere.com/photo/man-person-black-and-white-people-girl-woman-photography-cute-male-female-love-model-young-sitting-couple-romance-romantic-two-monochrome-together-lifestyle-smiling-date-boyfriend-caucasian-cheerful-outdoors-happy-happiness-relationship-photograph-beauty-emotion-adult-couple-in-love-happy-couple-interaction-young-couple-photo-shoot-romance-couple-romantic-couple-love-couple-couples-in-love-monochrome-photography-portrait-photography-beautiful-couple-smiling-couple-human-positions-couple-smiling-850821.jpg");
+	border: 3px solid gold;
+	background-size:100% auto;
+	border-radius: 50px;
+	width: 97.5%;
+	height:81%;
+	display: inline-block;
+	position: fixed;
+	background-color:#800000;
+	z-index:5;
+	display: none;
+	padding: 20px;
+}
+.pos{
+	color: gold;
+}
+.basic{
+	text-align: right;
+	color: gold;
+	padding-right: 25px;
+}
+.prem{
+	color: gold;
+}
+.delux{
+	text-align: right;
+	color: gold;
+	padding-right: 25px;
+}
+
