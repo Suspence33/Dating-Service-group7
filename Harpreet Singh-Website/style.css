@@ -17,7 +17,7 @@ h1{
 	font-weight:bold;
 }
 .label{
-	margin-left:1000px;
+	margin-left:970px;
 	font-weight:bold;
 	font-size:22px;
 	color:gold;
@@ -127,5 +127,8 @@ h1{
 	height:25px;
 }
 .p{
+	height:25px;
+}
+.d{
 	height:25px;
 }
