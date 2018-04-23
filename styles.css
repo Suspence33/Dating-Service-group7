@@ -1,0 +1,93 @@
+*{
+	margin:0;
+    padding:0;
+}
+
+html{
+	font-size:20px;
+}
+body{
+	  background-image: url("https://thumbs.dreamstime.com/z/young-couple-love-21370439.jpg");
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: cover;
+}
+.alpha{
+	margin:50px;
+	margin-top:100px;
+	margin-left:50px;
+	margin-right:1000px;
+	font-size: 30px;
+	border:3px;
+	color: white;
+	padding:25px;
+
+}
+h1{
+	text-align:center;
+	margin-top:20px;
+}
+ .intro {
+	     padding:  25px;
+		 margin: 50px;
+		 margin-top: 100px;
+		 margin-left: 500px;
+		 border: 3px ;
+		 text-align: center;
+		 width: 800px;
+		 height: 85px;
+		 border-radius: 10px;
+}
+      .big-box{
+		         position: absolute;
+				 top: 200px;
+				 left: 850px;
+				 width: 400px;
+				 height: 100px;
+				 background-color: blue;
+				 z-index: 1;
+	  }
+	  .big-box p{
+		           color: white;
+				   
+	  }
+	 
+	  .small-box{
+		          position: absolute;
+				  top:220px;
+				  margin-top: 100px;
+				  left: 850px;
+				  width: 400px;
+				  height: 100px;
+				  background-color: white;;
+				  z-index: 1;
+	  }
+	  .small-box p{
+		            color: blue;
+	  }
+	  .large-box{
+		           position: absolute;
+				   top: 150px;
+				   margin-top: 300px;
+				   left: 850px;
+				   width: 400px;
+				   height: 100px;
+				   background-color: white;
+				   z-index: 1;
+	  }
+	  .large-box p{
+		            color: blue;
+	  }
+	  .bottom-box{
+		      position: absolute;
+			  top: 200px;
+			  left: 400px;
+			  width: 400px;
+			  height: 400px;
+			  z-index: 2;
+	  }
+	  .bottom-box h1{
+		            font-size: bold;
+					font-size: 30px;
+	  }
+	  
