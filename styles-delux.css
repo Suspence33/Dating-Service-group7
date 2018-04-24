@@ -1,0 +1,154 @@
+* {
+margin:0;
+padding:0;
+}
+body {
+	background-image: URL("horizon.jpg");
+	height: 1200px;
+}
+.p1{
+	color:#800000;
+	text-align: right;
+	font-size: 20px;
+	font-family: 'Black Han Sans', sans-serif;
+	margin-right:10px;
+}
+.p2{
+	font-size: 20px;
+	font-style: oblique;
+	font-family: comic Sans MS;
+	color: #800000
+}
+.dropbtn {
+   background-image: URL("icon.png");
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	background-size: 100%;
+	border-radius: 10px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	float:left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+.menu{
+	height: 75px;
+	padding: 20px;
+	z-index:2;
+	position: relative;
+	text-align:center;
+}
+#cn {
+	display: none;
+	width: 400px;
+	height: 150px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+#us{
+	display: none;
+	width: 400px;
+	height: 150px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+#uk{
+	display: none;
+	width: 400px;
+	height: 150px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+#gr{
+	display: none;
+	width: 400px;
+	height: 150px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+#in{
+	display: none;
+	width: 400px;
+	height: 150px;
+	margin-left: 0px;
+}
+.pole{
+	background-color: grey;
+	width: 10px;
+	height: 960px;
+	position: absolute;
+	margin-left:45px;
+}
+.cdn{
+	background-color:red;
+	border-radius: 5px;
+	border: 3px solid white;
+	font-style: italic;
+	width: 80px;
+	height: 40px;
+}
+.usa{
+	background-color:blue;
+	color: white;
+	border-radius: 5px;
+	border: 3px solid red;
+	font-style: italic;
+	width: 80px;
+	height: 40px;
+}
+.eng{
+	background-color: white;
+	border: 3px solid red;
+	border-radius: 5px;
+	color:blue;
+	font-style: italic;
+	width: 80px;
+	height: 40px;
+}
+.ger{
+	background-color: orange;
+	border: 3px solid yellow;
+	border-radius: 5px;
+	color:black;
+	font-style: italic;
+	width: 80px;
+	height: 40px;
+}
+.ind{
+	background-color: green;
+	border: 3px solid orange;
+	border-radius: 5px;
+	color:white;
+	font-style: italic;
+	width: 80px;
+	height: 40px;
+}
