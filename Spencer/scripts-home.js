@@ -30,50 +30,21 @@ function deleteA(){
 	document.getElementById("box-text").style.display = "none";
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*document.getElementById("try").innerHTML = localStorage.getItem("name");
-
-if (localStorage.getItem("name")) {
-            document.getElementById("try").style.display = "block";
-        }
-        else {
-            document.getElementById("try").style.display = "none";   
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
 }
 
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
 
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
 
-function save1(){
-	var saveN = document.getElementById("text1").value;
-	console.log(saveN);
-	localStorage.setItem("name", saveN);
-	retrieve(saveN);
-	document.getElementById("try").innerHTML = localStorage.getItem("name");
-	document.getElementById("try").style.display = "block";
-	}
-
-function deleteAB(){
-	document.getElementById("text1").value = " ";
-	localStorage.removeItem('name');
-	document.getElementById("try").innerHTML = "";
-	document.getElementById("try").style.display = "none";
-}*/
