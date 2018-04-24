@@ -1,9 +1,17 @@
 body{
-	background-image:url("https://www.hd-wallpapersdownload.com/script/couple-image/boy-proposing-a-girl-romantic-couple-love.jpg");
+
 	height:1150px;
 	}
+.headerr{
+	height:75px;
+	width:100%;
+	text-align:center;
+    background-color:lightblue;
+
+}
 .menu{
 	text-align:center;
+
 }
 
 .heading{
@@ -16,12 +24,18 @@ h1{
 	
 	font-weight:bold;
 }
+.bb{
+	background-image:url("https://www.hd-wallpapersdownload.com/script/couple-image/boy-proposing-a-girl-romantic-couple-love.jpg");
+	height:1200px;
+	width:100%;
+}
 .label{
-	margin-left:970px;
+	height:1200px;
 	font-weight:bold;
 	font-size:22px;
 	color:gold;
-	
+	margin-left:970px;
+
 }
 .age{
 	width:200px;
@@ -48,6 +62,7 @@ h1{
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+  position:static;
 }
 
 /* Links inside the navbar */
@@ -131,4 +146,49 @@ h1{
 }
 .d{
 	height:25px;
+}
+#footer{
+	height:150px;
+	width:100%;
+	background-color:lightblue;
+}
+.img1 {
+	margin-left:60px;
+	margin-top:30px;
+}
+.fb{
+	margin-left:62px;
+	margin-top:10px;
+}
+.img2{
+	margin-left:180px;
+	margin-top:-118px;
+	position:absolute;
+}
+.in{
+	margin-left:180px;
+	margin-top:-34px;
+	position:absolute;
+}
+.img3{
+	margin-left:880px;
+	margin-top:-115px;
+	position:absolute;
+}
+.pl{
+	margin-left:932px;
+	margin-top:-32px;
+}
+.img4{
+	margin-left:1120px;
+	margin-top:-116px;
+	position:absolute;
+}
+.tw{
+	margin-left:1182px;
+	margin-top:-32px;
+}
+.term{
+	margin-left:500px;
+	margin-top:-37px;
 }
