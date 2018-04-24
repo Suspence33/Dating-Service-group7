@@ -1,0 +1,98 @@
+ body {
+background-color: maroon;
+
+overflow: scroll;
+height: 1800px;
+}
+.div{
+	background-color: #FF00FF;
+	background-image: url("background.jpg");
+	width: 95%;
+	height:1600px;
+	position: absolute;
+	left: 35px;
+	opacity: 0.5;
+	
+}
+.logo{
+	text-align: center;
+	margin-left: 500px;;
+}
+
+.packages {
+	background-color: black;
+	text-align: center;
+	width: 400px;
+	height: 50px;
+	margin: 100px auto;
+	border-radius: 7px;
+	border: solid red;
+}
+
+.packages h1 {
+	color: gold;
+	font-style: bold;
+	font-family: broadway;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.free-trial {
+	background-color: gray;
+	text-align: center;
+	width: 300px;
+	height: 400px;
+	border-radius: 15px;
+	border: solid black;
+	position: absolute;
+	top: 200px;
+	left: 8px;
+}
+
+
+.basic {
+	background-color: gray;
+	width: 300px;
+	height: 400px;
+	border-radius: 15px;
+	border: solid black;
+	position: absolute;
+	top: 200px;
+	left:488px;
+}
+
+.premium {
+	background-color: gray;
+	width: 300px;
+	height: 400px;
+	border-radius: 15px;
+	border: solid black;
+	position: absolute;
+	top: 200px;
+	left: 968px;
+}
+
+.deluxe {
+	background-color: gray;
+	width: 300px;
+	height: 400px;
+	border-radius: 15px;
+	border: solid black;
+	position: absolute;
+	top: 800px;
+	left: 488px;
+	
+}
+
+.disclaimer {
+	text-align: center;
+	margin-top: 900px;
+}
+.disclaimer h6 {
+	color: black;
+	text-align: center;
+	font-size: 8px;
+	font-family: calibri;
+	position: absolute;
+	top: 1590px;
+}
