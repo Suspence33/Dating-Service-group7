@@ -1,93 +1,139 @@
-*{
-	margin:0;
-    padding:0;
+ body {
+background-color: maroon;
+
+overflow: scroll;
+height: 1800px;
+}
+.dropbtn {
+   background-image: URL("icon.png");
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	background-size: 100%;
+	border-radius: 10px;
 }
 
-html{
-	font-size:20px;
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
 }
-body{
-	  background-image: url("https://thumbs.dreamstime.com/z/young-couple-love-21370439.jpg");
-	  background-repeat: no-repeat;
-	  background-position: center;
-	  background-size: cover;
-}
-.alpha{
-	margin:50px;
-	margin-top:100px;
-	margin-left:50px;
-	margin-right:1000px;
-	font-size: 30px;
-	border:3px;
-	color: white;
-	padding:25px;
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+	float:left;
 }
-h1{
-	text-align:center;
-	margin-top:20px;
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
- .intro {
-	     padding:  25px;
-		 margin: 50px;
-		 margin-top: 100px;
-		 margin-left: 500px;
-		 border: 3px ;
-		 text-align: center;
-		 width: 800px;
-		 height: 85px;
-		 border-radius: 10px;
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
-      .big-box{
-		         position: absolute;
-				 top: 200px;
-				 left: 850px;
-				 width: 400px;
-				 height: 100px;
-				 background-color: blue;
-				 z-index: 1;
-	  }
-	  .big-box p{
-		           color: white;
-				   
-	  }
-	 
-	  .small-box{
-		          position: absolute;
-				  top:220px;
-				  margin-top: 100px;
-				  left: 850px;
-				  width: 400px;
-				  height: 100px;
-				  background-color: white;;
-				  z-index: 1;
-	  }
-	  .small-box p{
-		            color: blue;
-	  }
-	  .large-box{
-		           position: absolute;
-				   top: 150px;
-				   margin-top: 300px;
-				   left: 850px;
-				   width: 400px;
-				   height: 100px;
-				   background-color: white;
-				   z-index: 1;
-	  }
-	  .large-box p{
-		            color: blue;
-	  }
-	  .bottom-box{
-		      position: absolute;
-			  top: 200px;
-			  left: 400px;
-			  width: 400px;
-			  height: 400px;
-			  z-index: 2;
-	  }
-	  .bottom-box h1{
-		            font-size: bold;
-					font-size: 30px;
-	  }
-	  
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+.div{
+	background-color: #FF00FF;
+	background-image: url("background.jpg");
+	width: 95%;
+	height:1600px;
+	position: absolute;
+	left: 35px;
+	opacity: 0.5;
+	
+}
+.logo{
+	text-align: center;
+	margin-left: 0px;;
+}
+
+.packages {
+	background-color: black;
+	text-align: center;
+	width: 400px;
+	height: 50px;
+	margin: 100px auto;
+	border-radius: 7px;
+	border: solid red;
+}
+
+.packages h1 {
+	color: gold;
+	font-style: bold;
+	font-family: broadway;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.free-trial {
+	background-color: gray;
+	text-align: center;
+	width: 300px;
+	height: 400px;
+	border-radius: 15px;
+	border: solid black;
+	position: absolute;
+	top: 200px;
+	left: 8px;
+}
+
+
+.basic {
+	background-color: gray;
+	width: 300px;
+	height: 400px;
+	border-radius: 15px;
+	border: solid black;
+	position: absolute;
+	top: 200px;
+	left:488px;
+}
+
+.premium {
+	background-color: gray;
+	width: 300px;
+	height: 400px;
+	border-radius: 15px;
+	border: solid black;
+	position: absolute;
+	top: 200px;
+	left: 968px;
+}
+
+.deluxe {
+	background-color: gray;
+	width: 300px;
+	height: 400px;
+	border-radius: 15px;
+	border: solid black;
+	position: absolute;
+	top: 800px;
+	left: 488px;
+	
+}
+
+.disclaimer {
+	text-align: center;
+	margin-top: 900px;
+}
+.disclaimer h6 {
+	color: black;
+	text-align: center;
+	font-size: 8px;
+	font-family: calibri;
+	position: absolute;
+	top: 1590px;
+}

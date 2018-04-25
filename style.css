@@ -1,0 +1,236 @@
+body{
+
+	height:1150px;
+	}
+.dropbtn {
+   background-image: URL("icon.png");
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	background-size: 100%;
+	border-radius: 10px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	float:left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+.headerr{
+	height:75px;
+	width:100%;
+	text-align:center;
+    background-color:lightblue;
+
+}
+.menu{
+	text-align:center;
+
+}
+
+.heading{
+	font-size:32px;
+	text-align:center;
+	font-family:Georgian;
+	
+}
+h1{
+	
+	font-weight:bold;
+}
+.bb{
+	background-image:url("https://www.hd-wallpapersdownload.com/script/couple-image/boy-proposing-a-girl-romantic-couple-love.jpg");
+	height:1200px;
+	width:100%;
+}
+.label{
+	height:1200px;
+	font-weight:bold;
+	font-size:22px;
+	color:gold;
+	margin-left:970px;
+
+}
+.age{
+	width:200px;
+	padding:7px;
+	border:1px solid #333;
+	padding-left:5px;
+	margin-top:20px;
+	
+}
+#country-name{
+	width:200px;
+	padding:7px;
+	border:1px solid #333;
+	margin-top:50px;
+}
+#states{
+	width:200px;
+	padding:7px;
+	border:1px solid #333;
+	margin-top:20px;
+}
+/* Navbar container */
+/*.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  position:static;
+}*/
+
+/* Links inside the navbar */
+/*.navbar a {
+  float: left;
+  font-size: 16px;
+ 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}*/
+
+/* The dropdown container */
+/*.dropdown {
+  float: left;
+  overflow: hidden;
+}*/
+
+/* Dropdown button */
+/*.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color:gold;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+/*.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  font-size:16px;
+}*/
+
+/* Dropdown content (hidden by default) */
+/*.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size:18px;
+}*/
+
+/* Links inside the dropdown */
+/*.dropdown-content a {
+  float: none;
+ 
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}*/
+
+/* Add a grey background color to dropdown links on hover */
+/*.dropdown-content a:hover {
+  background-color: #ddd;
+}*/
+
+/* Show the dropdown menu on hover */
+/*.dropdown:hover .dropdown-content {
+  display: block;
+}*/
+.ggg{
+	height:20px;
+}
+.a{
+	color:gold;
+}
+.h{
+	height:25px;
+}
+.s{
+	height:25px;
+}
+.p{
+	height:25px;
+}
+.d{
+	height:25px;
+}
+#footer{
+	height:150px;
+	width:100%;
+	background-color:lightblue;
+}
+.img1 {
+	margin-left:60px;
+	margin-top:30px;
+}
+.fb{
+	margin-left:62px;
+	margin-top:10px;
+}
+.img2{
+	margin-left:180px;
+	margin-top:-118px;
+	position:absolute;
+}
+.in{
+	margin-left:180px;
+	margin-top:-34px;
+	position:absolute;
+}
+.img3{
+	margin-left:880px;
+	margin-top:-115px;
+	position:absolute;
+}
+.pl{
+	margin-left:932px;
+	margin-top:-32px;
+}
+.img4{
+	margin-left:1120px;
+	margin-top:-116px;
+	position:absolute;
+}
+.tw{
+	margin-left:1182px;
+	margin-top:-32px;
+}
+.term{
+	margin-left:500px;
+	margin-top:-37px;
+}

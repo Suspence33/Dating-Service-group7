@@ -1,4 +1,4 @@
-document.getElementById("input-text").innerHTML = localStorage.getItem("name");
+//document.getElementById("input-text").innerHTML = localStorage.getItem("name");
 
 if (localStorage.getItem("name")) {
             document.getElementById("box-text").style.display = "block";

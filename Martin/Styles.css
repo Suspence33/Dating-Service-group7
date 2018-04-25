@@ -1,4 +1,4 @@
-body {
+ body {
 background-color: maroon;
 
 overflow: scroll;
@@ -16,6 +16,7 @@ height: 1800px;
 }
 .logo{
 	text-align: center;
+	margin-left: 500px;;
 }
 
 .packages {
@@ -44,7 +45,7 @@ height: 1800px;
 	border-radius: 15px;
 	border: solid black;
 	position: absolute;
-	top: 500px;
+	top: 200px;
 	left: 8px;
 }
 
@@ -56,7 +57,7 @@ height: 1800px;
 	border-radius: 15px;
 	border: solid black;
 	position: absolute;
-	top: 500px;
+	top: 200px;
 	left:488px;
 }
 
@@ -67,7 +68,7 @@ height: 1800px;
 	border-radius: 15px;
 	border: solid black;
 	position: absolute;
-	top: 500px;
+	top: 200px;
 	left: 968px;
 }
 
@@ -78,7 +79,7 @@ height: 1800px;
 	border-radius: 15px;
 	border: solid black;
 	position: absolute;
-	top: 1100px;
+	top: 800px;
 	left: 488px;
 	
 }
